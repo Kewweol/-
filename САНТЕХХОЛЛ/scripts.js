@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (headerLogo) {
         headerLogo.style.cursor = 'pointer';
         headerLogo.addEventListener('click', function() {
-            window.location.href = 'главная.html';
+            window.location.href = 'index.html';
         });
     }
     

@@ -803,7 +803,6 @@ ul {
     margin-bottom: 8px;
     min-height: 44px;
     display: -webkit-box;
-    line-clamp: 2;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -1234,7 +1233,6 @@ ul {
     color: #1e293b;
     margin-bottom: 6px;
     display: -webkit-box;
-    line-clamp: 2;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -1765,7 +1763,6 @@ a {
     height: 36px;
     overflow: hidden;
     display: -webkit-box;
-    line-clamp: 2;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
 }
