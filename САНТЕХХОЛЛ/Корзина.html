@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина - Сантеххолл</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-inner">
+            <div class="logo">
+                <img src="images/Лого магазина.png" class="logo-icon" alt="Логотип"> САНТЕХХОЛЛ
+            </div>
+            <nav class="nav">
+                <a href="#">Каталог</a>
+                <a href="#">Акции</a>
+                <a href="#">О компании</a>
+            </nav>
+            <a href="#" class="btn btn-cart">Корзина</a>
+        </div>
+    </header>
+
+    <main class="container cart-page">
+        
+        <div class="cart-header">
+            <h1 class="page-title">В корзине</h1>
+            <div class="cart-header-labels">
+                <span class="label-qty">Кол-во</span>
+                <span class="label-total">Сумма</span>
+            </div>
+        </div>
+
+        <div class="cart-items-list">
+            
+            <div class="cart-item">
+                <img src="images/унитаз azario.png" class="cart-item-img" alt="Унитаз Azario">
+                <div class="cart-item-title">Унитаз Azario AZ-0093UQ</div>
+                <div class="cart-item-price">15 990 ₽</div>
+                <div class="cart-item-qty">2x</div>
+                <div class="cart-item-total">31 980 ₽</div>
+            </div>
+
+            <div class="cart-item">
+                <img src="images/смеситель belz.png" class="cart-item-img" alt="Смеситель BELZ">
+                <div class="cart-item-title">Смеситель BELZ B10809</div>
+                <div class="cart-item-price">4 500 ₽</div>
+                <div class="cart-item-qty">1x</div>
+                <div class="cart-item-total">4 500 ₽</div>
+            </div>
+
+            <div class="cart-item">
+                <img src="images/раковина aqd.png" class="cart-item-img" alt="Раковина AQD ESPIRAL">
+                <div class="cart-item-title">Раковина AQD ESPIRAL</div>
+                <div class="cart-item-price">14 850 ₽</div>
+                <div class="cart-item-qty">1x</div>
+                <div class="cart-item-total">14 850 ₽</div>
+            </div>
+        </div>
+
+        <section class="frequently-bought-carousel">
+            <div class="carousel-header">
+                <h2>Часто покупают вместе</h2>
+                <a href="#" class="more-link">Смотреть дальше &gt;</a>
+            </div>
+            
+            <div class="carousel-grid">
+                
+                <div class="product-card-small">
+                    <img src="images/ванна west.png" class="product-img" alt="Ванна WEST">
+                    <div class="product-title">Ванна WEST</div>
+                    <div class="product-rating"><span class="stars">★★★★★</span> <span class="rating-val">4.7</span></div>
+                    <div class="product-bottom">
+                        <div class="product-price">20 400 ₽</div>
+                        <button class="cart-icon">🛒</button>
+                    </div>
+                </div>
+
+                <div class="product-card-small">
+                    <img src="images/смеситель rosinka.png" class="product-img" alt="Смеситель ROSSINKA">
+                    <div class="product-title">Смеситель ROSSINKA</div>
+                    <div class="product-rating"><span class="stars">★★★★★</span> <span class="rating-val">4.7</span></div>
+                    <div class="product-bottom">
+                        <div class="product-price">6 300 ₽</div>
+                        <button class="cart-icon">🛒</button>
+                    </div>
+                </div>
+
+                <div class="product-card-small">
+                    <img src="images/раковина AZ.png" class="product-img" alt="Раковина AZ FRETTA">
+                    <div class="product-title">Раковина AZ FRETTA</div>
+                    <div class="product-rating"><span class="stars">★★★★★</span> <span class="rating-val">4.5</span></div>
+                    <div class="product-bottom">
+                        <div class="product-price">23 100 ₽</div>
+                        <button class="cart-icon">🛒</button>
+                    </div>
+                </div>
+
+                <div class="product-card-small">
+                    <img src="images/унитаз azario 2.png" class="product-img" alt="Унитаз Azario AZ">
+                    <div class="product-title">Унитаз Azario AZ</div>
+                    <div class="product-rating"><span class="stars">★★★★★</span> <span class="rating-val">4.6</span></div>
+                    <div class="product-bottom">
+                        <div class="product-price">21 550 ₽</div>
+                        <button class="cart-icon">🛒</button>
+                    </div>
+                </div>
+
+                <div class="product-card-small">
+                    <img src="images/душевая кабина esbano.png" class="product-img" alt="Душевая кабина ESBANO">
+                    <div class="product-title">Душевая кабина ESBANO</div>
+                    <div class="product-rating"><span class="stars">★★★★★</span> <span class="rating-val">4.8</span></div>
+                    <div class="product-bottom">
+                        <div class="product-price">51 600 ₽</div>
+                        <button class="cart-icon">🛒</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="checkout-section">
+            <div class="summary-box">
+                <div class="summary-row">
+                    <span class="summary-label">К оплате</span>
+                    <span class="summary-value">51 330 ₽</span>
+                </div>
+                <div class="summary-row">
+                    <span class="summary-label">Доставка</span>
+                    <span class="summary-value delivery-info">Стоимость уточнить у менеджера</span>
+                </div>
+                <div class="summary-row total-row">
+                    <span class="summary-label">Итого</span>
+                    <span class="summary-value">51 330 ₽</span>
+                </div>
+
+                <button class="btn btn-checkout">Оформить заказ</button>
+            </div>
+
+            <div class="map-container">
+    <img src="images/карта маленькая.png" class="map-image" alt="Карта расположения магазина Сантеххолл">
+ </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <div class="logo">
+                    <img src="images/Лого магазина.png" class="logo-icon" alt="Логотип"> САНТЕХХОЛЛ
+                </div>
+                <p class="brand-desc">МАГАЗИН САНТЕХНИКИ</p>
+                <p class="brand-quote">"Честность, надежность, качество"</p>
+            </div>
+            <div class="footer-links">
+                <h4>Полезная информация для клиентов</h4>
+                <ul>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Оплата</a></li>
+                    <li><a href="#">Гарантия</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-contacts">
+                <h4>Контактная информация</h4>
+                <ul>
+                    <li>
+    <img src="images/значок 1.png" class="contact-icon" alt="Адрес">
+    г. Астрахань, ул. Рылеева 30/8<br>пн-вс с 9:00 до 18:00
+</li>
+<li>
+    <img src="images/значок 2.png" class="contact-icon" alt="Телефон">
+    +7 (961) 653-99-88
+</li>
+<li>
+    <img src="images/значок 3.png" class="contact-icon" alt="Email">
+    info@santehholl.ru
+</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

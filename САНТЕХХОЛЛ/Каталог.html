@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог - Сантеххолл</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-inner">
+            <div class="logo">
+               <img src="images/Лого магазина.png" class="logo-icon" alt="Логотип">
+               <span>САНТЕХХОЛЛ</span>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Поиск товаров...">
+            </div>
+            <a href="#" class="btn btn-cart">Корзина</a>
+        </div>
+    </header>
+
+    <main class="container catalog-page">
+        <h1 class="page-title">Каталог</h1>
+
+        <div class="catalog-layout">
+            <aside class="sidebar">
+                <h2 class="sidebar-title">Фильтры</h2>
+
+                <div class="filter-group">
+                    <div class="filter-header">
+                        <h3>Тип</h3>
+                        <span class="toggle-icon">▲</span>
+                    </div>
+                    <ul class="filter-list">
+                        <li><label><input type="radio" name="type"> Ванны</label></li>
+                        <li><label><input type="radio" name="type"> Унитазы</label></li>
+                        <li><label><input type="radio" name="type"> Раковины</label></li>
+                        <li><label><input type="radio" name="type"> Смесители</label></li>
+                        <li><label><input type="radio" name="type"> Полотенцесушители</label></li>
+                    </ul>
+                </div>
+
+                <div class="filter-group">
+                    <div class="filter-header">
+                        <h3>Цена</h3>
+                    </div>
+                    <div class="price-inputs">
+                        <span>от</span>
+                        <input type="text" class="price-input" placeholder="0">
+                        <span>— до</span>
+                        <input type="text" class="price-input" placeholder="150 000">
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <div class="filter-header">
+                        <h3>Бренд</h3>
+                        <span class="toggle-icon">▲</span>
+                    </div>
+                    <ul class="filter-list">
+                        <li><label><input type="radio" name="brand"> Azario</label></li>
+                        <li><label><input type="radio" name="brand"> BelBagno</label></li>
+                        <li><label><input type="radio" name="brand"> Rossinka</label></li>
+                        <li><label><input type="radio" name="brand"> Kaldewei</label></li>
+                        <li><label><input type="radio" name="brand"> AVS</label></li>
+                        <li><label><input type="radio" name="brand"> Hansgrohe</label></li>
+                        <li><label><input type="radio" name="brand"> Nota</label></li>
+                        <li><label><input type="radio" name="brand"> Vincea</label></li>
+                        <li><label><input type="radio" name="brand"> Magnus</label></li>
+                    </ul>
+                    <a href="#" class="more-link">Дополнительно... ▼</a>
+                </div>
+
+                <div class="filter-group collapsed">
+                    <div class="filter-header">
+                        <h3>Размер и цвет</h3>
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                </div>
+                <div class="filter-group collapsed">
+                    <div class="filter-header">
+                        <h3>Наличие</h3>
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                </div>
+                <div class="filter-group collapsed">
+                    <div class="filter-header">
+                        <h3>Рейтинг и отзывы</h3>
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                </div>
+                <div class="filter-group collapsed">
+                    <div class="filter-header">
+                        <h3>Акции</h3>
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                </div>
+            </aside>
+
+            <section class="content">
+                <div class="content-header">
+                    <div class="sorting">
+                        Сортировка <span class="sort-icon">▼</span>
+                    </div>
+                </div>
+
+                <div class="products-grid">
+                    
+                    <div class="product-card">
+                        <img src="images/смеситель belz.png" class="product-img" alt="Смеситель BELZ">
+                        <div class="product-info">
+                            <div class="product-title">Смеситель BELZ</div>
+                            <div class="product-rating"><span class="stars">★★★★★</span> <span class="rating-val">4.7</span></div>
+                            <div class="product-bottom">
+                                <div class="product-price">4 500 ₽</div>
+                                <button class="cart-icon">🛒</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="images/смеситель rosinka.png" class="product-img" alt="Смеситель ROSSINKA">
+                        <div class="product-info">
+                            <div class="product-title">Смеситель ROSSINKA</div>
+                            <div class="product-rating"><span class="stars">★★★★★</span> <span class="rating-val">4.6</span></div>
+                            <div class="product-bottom">
+                                <div class="product-price">6 300 ₽</div>
+                                <button class="cart-icon">🛒</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="images/раковина belbagno.png" class="product-img" alt="Раковина BelBagno">
+                        <div class="product-info">
+                            <div class="product-title">Раковина BelBagno</div>
+                            <div class="product-rating"><span class="stars">★★★★★</span> <span class="rating-val">4.8</span></div>
+                            <div class="product-bottom">
+                                <div class="product-price">12 750 ₽</div>
+                                <button class="cart-icon">🛒</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="images/унитаз azario 2.png" class="product-img" alt="Унитаз Azario">
+                        <div class="product-info">
+                            <div class="product-title">Унитаз Azario</div>
+                            <div class="product-rating"><span class="stars">★★★★★</span> <span class="rating-val">4.7</span></div>
+                            <div class="product-bottom">
+                                <div class="product-price">19 400 ₽</div>
+                                <button class="cart-icon">🛒</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="images/зеркало azario.png" class="product-img" alt="Зеркало Azario">
+                        <div class="product-info">
+                            <div class="product-title">Зеркало Azario</div>
+                            <div class="product-rating"><span class="stars">★★★★★</span> <span class="rating-val">4.9</span></div>
+                            <div class="product-bottom">
+                                <div class="product-price">18 500 ₽</div>
+                                <button class="cart-icon">🛒</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="images/полотенцесушитель magnus.png" class="product-img" alt="Полотенцесушитель MAGNUS">
+                        <div class="product-info">
+                            <div class="product-title">Полотенцесушитель MAGNUS</div>
+                            <div class="product-rating"><span class="stars">★★★★★</span> <span class="rating-val">4.7</span></div>
+                            <div class="product-bottom">
+                                <div class="product-price">11 600 ₽</div>
+                                <button class="cart-icon">🛒</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pagination-info">1 из 64</div>
+                <div class="load-more-container">
+                    <button class="btn-load-more">
+                        <span class="load-more-icon">⏬</span> Больше
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <div class="logo">
+                    <img src="images/Лого магазина.png" class="logo-icon" alt="Логотип"> САНТЕХХОЛЛ
+                </div>
+                <p class="brand-desc">МАГАЗИН САНТЕХНИКИ</p>
+                <p class="brand-quote">"Честность, надежность, качество"</p>
+            </div>
+            <div class="footer-links">
+                <h4>Полезная информация для клиентов</h4>
+                <ul>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Оплата</a></li>
+                    <li><a href="#">Гарантия</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-contacts">
+                <h4>Контактная информация</h4>
+                <ul>
+                    <img src="images/значок 1.png" class="contact-icon" alt="Адрес">
+    г. Астрахань, ул. Рылеева 30/8<br>пн-вс с 9:00 до 18:00
+</li>
+<li>
+    <img src="images/значок 2.png" class="contact-icon" alt="Телефон">
+    +7 (961) 653-99-88
+</li>
+<li>
+    <img src="images/значок 3.png" class="contact-icon" alt="Email">
+    info@santehholl.ru
+</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
